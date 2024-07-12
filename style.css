@@ -1,0 +1,203 @@
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    align-content: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    opacity: .98;
+    margin: 0 0 0 0;
+}
+
+.nav-logo {
+    margin-left: 32px;
+}
+
+.nav .title, .nav a {
+    display: inline;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+.nav .title, .nav a:hover {
+    color: #007bff;
+}
+
+.header-divider {
+    width: 1px;
+    min-height: 56px;
+    background-color: #007bff;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.subscribe-button-container {
+    margin-left: 60%;
+}
+
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    background-color: #F6F9FF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.card h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.card button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+
+/* GALLERY PAGE */
+
+main.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.gallery-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.news-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+    margin-left: 4%;
+}
+
+.news-snippet {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 320px;
+    overflow: hidden;
+}
+
+.news-snippet img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-snippet h2 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.news-snippet p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px;
+}
+
+.news-snippet:hover {
+    border: #007bff 1px solid;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.contact-details p {
+    font-size: 14px;
+}
